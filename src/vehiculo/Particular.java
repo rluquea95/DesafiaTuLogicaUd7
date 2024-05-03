@@ -47,5 +47,4 @@ public class Particular extends Turismo implements Iniciable{
 		return super.toString() + "\n-Propietario: " + propietario +
 									"\n-Aire Acondicionado: " + conAireAcondicionado;
 	}
-	
 }

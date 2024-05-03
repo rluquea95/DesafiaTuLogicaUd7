@@ -56,7 +56,4 @@ public class Taxi extends Turismo implements Calculable, Iniciable{
 									"\n-Importe Km: " + importeKm +
 									"\n-Coste del trayecto: " + calcularCosteTrayecto();
 	}
-	
-	
-	
 }

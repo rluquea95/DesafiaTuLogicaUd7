@@ -38,7 +38,6 @@ public class Main {
 		
 		particular2.setPropietario("Rosa Luque");
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL SEGUNDO PARTICULAR ACTUALIZADOS +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(particular2.toString());
-		
+		System.out.println(particular2.toString());	
 	}
 }

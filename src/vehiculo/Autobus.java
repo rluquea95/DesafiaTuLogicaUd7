@@ -30,5 +30,4 @@ public class Autobus extends Vehiculo{
 		return super.toString() + "\n-Número del autobús: " + numero + 
 									"\n-Número de paradas: " + numParadas;
 	}
-
 }

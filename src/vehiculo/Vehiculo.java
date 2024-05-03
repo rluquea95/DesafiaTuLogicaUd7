@@ -52,6 +52,5 @@ public abstract class Vehiculo {
 				"\n-Número de Bastidor: " + numeroBastidor +
 				"\n-Número de puertas: " + numeroPuertas;
 	}
-
 }
 

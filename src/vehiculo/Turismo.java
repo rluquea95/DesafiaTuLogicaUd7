@@ -21,7 +21,4 @@ public abstract class Turismo extends Vehiculo {
 	public String toString() {
 		return super.toString() + "\n-Tipos de asientos: " + tiposAsientos;
 	}
-	
-	
-
 }
