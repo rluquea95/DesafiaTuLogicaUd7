@@ -12,19 +12,19 @@ public class Main {
 		Autobus autobus1=new Autobus("Volvo", "9700", "2JKTP8TS105112366", 3, 30);
 		
 		System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL PRIMER TAXI +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(taxi1.toString());
+		System.out.println(taxi1);
 		
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL SEGUNDO TAXI +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(taxi2.toString());
+		System.out.println(taxi2);
 		
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL PRIMER PARTICULAR +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(particular1.toString());
+		System.out.println(particular1);
 		
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL SEGUNDO PARTICULAR +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(particular2.toString());
+		System.out.println(particular2);
 		
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL AUTOBUS +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(autobus1.toString());
+		System.out.println(autobus1);
 		
 		System.out.println("\nTotal de vehículos funcionando " + Vehiculo.getContCantVehFuncionando() + "\n");
 		
@@ -32,12 +32,12 @@ public class Main {
 		System.out.println("\nEl coste del nuevo trayecto es: " + taxi1.calcularCosteTrayecto() + "\n");
 		
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL PRIMER TAXI ACTUALIZADOS +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(taxi1.toString() + "\n");
+		System.out.println(taxi1 + "\n");
 		
 		particular1.reiniciarContador(10000);
 		
 		particular2.setPropietario("Rosa Luque");
 		System.out.println("\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+ DATOS DEL SEGUNDO PARTICULAR ACTUALIZADOS +-+-+-+-+-+-+-+-+-+-+-+-+-+-");
-		System.out.println(particular2.toString());	
+		System.out.println(particular2);	
 	}
 }
